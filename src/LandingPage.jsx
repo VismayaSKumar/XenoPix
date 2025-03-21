@@ -21,7 +21,7 @@ function LandingPage() {
   };
 
   return (
-    <div className='min-h-screen w-full bg-[url("/bgLandingPageDesktop.png")] bg-contain bg-repeat relative'>
+    <div className='min-h-screen w-full bg-[url("/bgLandingPageDesktop.png")] bg-contain bg-repeat relative overflow-hidden'>
         <motion.div animate={{x:[0,5,3,0] ,y:[0,-5,0]}} transition={{duration: 7, repeat: Infinity, ease: "easeInOut"}} className='absolute top-[3vh] left-[-8vw] lg:left-[-4vw]'><img className='w-[23vw] lg:w-[9vw]' src={planet1} alt="" /></motion.div>
         <motion.div animate={{x:[0,5,3,0] ,y:[0,15,0]}} transition={{duration: 7, repeat: Infinity, ease: "circInOut",}} className='absolute top-[60vh] lg:top-[66vh] left-[1vw] lg:left-[13vw] '><img className='w-[40vw] lg:w-[13vw]' src={planet2} alt="" /></motion.div>
         <motion.div animate={{x:[0,5,3,0] ,y:[0,-15,0]}} transition={{duration: 7, repeat: Infinity, ease: "easeInOut"}} className='absolute lg:top-[42vh] lg:right-[8vw] max-sm:hidden'><img className=' w-[14vw] ' src={planet3} alt="" /></motion.div>
@@ -31,7 +31,7 @@ function LandingPage() {
         <motion.div animate={{x:[0,3,-3,0],y:[0,3,-3,0]}} transition={{duration:4,repeat:Infinity, ease:"easeInOut"}} className='absolute top-[38vh] lg:top-[47vh] right-3 lg:right-[28vw]'><img className='w-[16vw] lg:w-[8vw]' src={light2} alt="" /></motion.div>
         
         <div className='absolute top-[12vh] left-[-10px] lg:top-[6vh] lg:left-[10vw]'>
-          <motion.img animate={{ x: [0, 10, -10, 0] ,y:[0,5,-5,0],scale:[0.9,1,0.9] }} transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }} className='w-[90vw] md:hidden' src={ufo} alt="" />
+          <motion.img animate={{ x: [0, 10, -10, 0] ,y:[0,5,-5,0],scale:[0.9,1.2,0.9] }} transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }} className='w-[90vw] md:hidden' src={ufo} alt="" />
           <div className="absolute bottom-[4vh] left-[27vw] text-[17vw] font-pixelify bg-gradient-to-r from-[#1AEFB3] via-60% via-[#57A3C7] to-[#57A3C7] bg-clip-text text-transparent">xenopix</div>
         </div>
 
