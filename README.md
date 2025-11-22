@@ -1,5 +1,5 @@
 # XenoPix : pixels from another dimension
 
-This is Avatar making website using React
+Xenopix is a sci-fi, pixel-art-inspired project for Avatar making using React.
 
 

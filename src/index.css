@@ -2,11 +2,26 @@
     font-family: Pixelify;
     src: url(../src/assets/fonts/PixelifySans-Regular.ttf);
 }
+@font-face {
+    font-family: Orbit;
+    src: url(../src/assets/fonts/Orbit-Regular.ttf);
+}
+@font-face {
+    font-family: Orbitron;
+    src: url(../src/assets/fonts/Orbitron-VariableFont_wght.ttf);
+}
+
 
 @import "tailwindcss";
 
 @theme{
     --font-*:initial;
     --font-pixelify: Pixelify, "sans-sarif";
-    
+    --font-orbit: Orbit, "sans-sarif";
+    --font-orbitron: Orbitron, "sans-sarif";
 }
+html {
+    scroll-behavior: smooth;
+  }
+
+  
